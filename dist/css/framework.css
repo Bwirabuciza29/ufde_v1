@@ -1,0 +1,27 @@
+*{
+    @apply box-border m-0 p-0
+}
+a {
+    @apply no-underline inline-block text-inherit
+}
+a:hover,a:focus,a:visited {
+    @apply no-underline outline-0
+}
+img {
+    @apply max-w-full block
+}
+button {
+    @apply shadow-none block cursor-pointer p-0 border-[none] bg-transparent outline-0
+}
+button:focus {
+  @apply outline-0
+}
+input,textarea {
+    @apply shadow-none transition-all duration-[0.3s] ease-[ease-in-out] outline-0
+}
+audio,video,canvas {
+    @apply max-w-full
+}
+iframe {
+    @apply border-[none]
+}
